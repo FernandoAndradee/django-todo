@@ -1,8 +1,8 @@
-================
+
 Todo API application
 ================
 
-Make virtualenv
+You'll need a virtualenv
 ===============
 
 On Linux::
