@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>A fazeres</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-    <style>
+    <style> /*CSS*/
         body {
             background: rgb(54,217,182);
             background: linear-gradient(90deg, rgba(54,217,182,1) 0%, rgba(32,152,126,1) 43%, rgba(0,212,255,1) 100%)
@@ -87,7 +87,7 @@
         </div>
     </div>
 
-    <script type="text/javascript">
+    <script type="text/javascript"> /*JAVASCRIPT*/
 
         function getCookie(name) {
             var cookieValue = null;
@@ -116,9 +116,6 @@
         function criarlista(){
             var wrapper = document.getElementById('list-wrapper')
             // wrapper.innerHTML = ''
-
-            
-            
 
             var url = "http://127.0.0.1:8000/api/task-list/"
 
@@ -256,8 +253,6 @@
                 criarlista()
             })
         }
-
-
     </script>
 </body>
 </html>
