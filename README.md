@@ -1,43 +1,53 @@
+# Todo API application
 
-Todo API application
-================
+### You'll use a virtualenv to controll the packages 📦 
 
-You'll need a virtualenv
-===============
+<li>On Linux
 
-On Linux::
+   ```sh
+   python3 -m venv venv
+   ```
 
-   $ python3.7 -m venv venv
-   $ . venv/bin/activate
+</li>
 
-On Windows::
+<li>On Windows
 
-   > python -m venv venv
-   > venv/Scripts/activate
+   ```sh
+   py -3 -m venv venv
+   ```
 
-::
+</li>
 
-   (venv)$ pip install -r requirements.txt
+<li>On Mac
+   
+   ```sh
+   virtualenv venv
+   ```
 
-migrate
-=======
+</li>
 
-::
+## After activate run this
 
-   (venv)$ cd myproject
-   (venv)$ python manage.py migrate
+   ```sh
+   (venv)pip install -r requirements.txt
+   ```
 
-Make admin user
-===============
+## Migrate to create the database table
 
-::
+   ```sh
+   (venv) cd myproject
+   (venv) python manage.py migrate
+   ```
 
-   (venv)$ python manage.py createsuperuser
+## Make admin user
 
-runserver
-=========
+   ```sh
+   (venv) python manage.py createsuperuser
+   ```
 
-::
+## Runserver
 
-   (venv)$ cd myproject
-   (venv)$ python manage.py runserver
+   ```sh
+   (venv) cd myproject
+   (venv) python manage.py runserver
+   ```
