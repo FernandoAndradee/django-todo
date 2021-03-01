@@ -1,8 +1,10 @@
-# Todo API application
+# Todo App
 
-### You'll use a virtualenv to controll the packages 📦 
+Para ver em produção [entre aqui](https://tarefas-afazer.herokuapp.com/)
 
-<li>On Linux
+### Use virtualenv para controlar os pacotes da aplicação 📦 
+
+<li>No Linux
 
    ```sh
    python3 -m venv venv
@@ -10,7 +12,7 @@
 
 </li>
 
-<li>On Windows
+<li>No Windows
 
    ```sh
    py -3 -m venv venv
@@ -18,7 +20,7 @@
 
 </li>
 
-<li>On Mac
+<li>No Mac
    
    ```sh
    virtualenv venv
@@ -26,26 +28,26 @@
 
 </li>
 
-## After activate run this
+## Instale as dependências 
 
    ```sh
    (venv)pip install -r requirements.txt
    ```
 
-## Migrate to create the database table
+## Migre para criar as tabelas do banco de dados
 
    ```sh
    (venv) cd myproject
    (venv) python manage.py migrate
    ```
 
-## Make admin user
+## Crie um admin user
 
    ```sh
    (venv) python manage.py createsuperuser
    ```
 
-## Runserver
+## Rode o servidor
 
    ```sh
    (venv) cd myproject
