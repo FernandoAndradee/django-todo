@@ -1,6 +1,6 @@
 # Todo App
 
-Para ver em produção [entre aqui](https://tarefas-afazer.herokuapp.com/)
+Para ver em produção [entre aqui](http://tarefas-afazer.herokuapp.com/)
 
 ### Use virtualenv para controlar os pacotes da aplicação 📦 
 
